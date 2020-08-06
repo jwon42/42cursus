@@ -12,7 +12,7 @@
 
 #### :page_facing_up: Parameters
 
-- `int fd` :  file descriptor for reading
+- `int fd` : file descriptor for reading
 - `char **line` : The value of what has been read
 
 #### :page_facing_up: Return value
