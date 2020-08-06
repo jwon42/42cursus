@@ -17,7 +17,7 @@
 # include <stdlib.h>
 # include <limits.h>
 
-# define BUFFER_SIZE 100
+# define BUFFER_SIZE 1
 
 void				*ft_memset(void *str, int c, size_t n);
 void				ft_bzero(void *str, size_t n);
@@ -73,5 +73,8 @@ t_list				*ft_lstmap(t_list *lst, void *(*f)(void *), \
 					void (*del)(void *));
 
 int					get_next_line(int fd, char **line);
+int					ft_isspace(int c);
+char				*ft_chrdel(char const *s, char c);
+int					ft_isspace_str(char *str);
 
 #endif
