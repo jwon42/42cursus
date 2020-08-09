@@ -40,7 +40,7 @@
 
 - [My own functions](https://github.com/jwon42/42cursus/tree/master/01_Libft/02_myown)
 
-  1. get_next_line
+  1. [get_next_line](https://github.com/jwon42/42cursus/blob/master/01_Libft/02_myown/get_next_line.c)
 
      - ```c
        int get_next_line(int fd, char **line);
@@ -48,7 +48,7 @@
 
      - Write a function which returns a line read from a file descriptor, without the newline.
 
-  2. isspace
+  2. [isspace](https://github.com/jwon42/42cursus/blob/master/01_Libft/02_myown/ft_isspace.c)
 
      - ```c
        int ft_isspace(int c);
@@ -56,7 +56,7 @@
 
      - Checks for white-space characters. (`" "`, `\f`, `\n`, `\r`, `\t`, `\v`)
 
-  4. chrdel
+  3. [chrdel](https://github.com/jwon42/42cursus/blob/master/01_Libft/02_myown/ft_chrdel.c)
 
      - ```c
        char *ft_chrdel(char const *s, char c);
