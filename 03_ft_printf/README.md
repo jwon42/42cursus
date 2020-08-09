@@ -1,10 +1,18 @@
 ## :notebook_with_decorative_cover: ft_printf
 
-#### :page_facing_up: Prototype
+#### :page_facing_up: Program name
+
+- **`libftprintf.a`**
+
+#### :page_facing_up: ​Prototype
 
 - ```c
-  int	ft_printf(const char *str, ...);
+  int ft_printf(const char *str, ...);
   ```
+
+#### :page_facing_up: Turn in files
+
+- `*.c`, `*/*.c`, `*.h`, `*/*.h`, `Makefile`
 
 #### :page_facing_up: Description
 
