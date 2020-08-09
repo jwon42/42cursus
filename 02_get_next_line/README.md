@@ -1,10 +1,18 @@
 ## :notebook_with_decorative_cover: get_next_line
 
-#### :page_facing_up: Prototype
+#### :page_facing_up: Function name
+
+- **get_next_line**
+
+#### :page_facing_up: ​Prototype
 
 - ```c
-  int	get_next_line(int fd, char **line);
+  int get_next_line(int fd, char **line);
   ```
+
+#### :page_facing_up: Turn in files
+
+- `get_next_line.c`, `get_next_line_utils.c`, `get_next_line.h`
 
 #### :page_facing_up: ​Description
 
