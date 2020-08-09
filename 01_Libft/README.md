@@ -46,7 +46,7 @@
        int get_next_line(int fd, char **line);
        ```
 
-     - Write a function which returns a line read from a file descriptor, without the newline.
+       Write a function which returns a line read from a file descriptor, without the newline.
 
   2. [isspace](https://github.com/jwon42/42cursus/blob/master/01_Libft/02_myown/ft_isspace.c)
 
@@ -54,7 +54,7 @@
        int ft_isspace(int c);
        ```
 
-     - Checks for white-space characters. (`" "`, `\f`, `\n`, `\r`, `\t`, `\v`)
+       Checks for white-space characters. (`" "`, `\f`, `\n`, `\r`, `\t`, `\v`)
 
   3. [chrdel](https://github.com/jwon42/42cursus/blob/master/01_Libft/02_myown/ft_chrdel.c)
 
@@ -62,7 +62,7 @@
        char *ft_chrdel(char const *s, char c);
        ```
 
-     - Remove all specific characters(c) from a string(s).
+       Remove all specific characters(c) from a string(s).
 
 
 ------
