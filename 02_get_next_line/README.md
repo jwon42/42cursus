@@ -2,7 +2,7 @@
 
 #### :page_facing_up: Function name
 
-- **get_next_line**
+- **`get_next_line`**
 
 #### :page_facing_up: ​Prototype
 
