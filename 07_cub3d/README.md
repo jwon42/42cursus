@@ -47,8 +47,10 @@
 - [ ] Rotate the point of view with the mouse.
 - [ ] Weapons and bad guys to fight!
 
-#### :page_facing_up: Game image
+#### :page_facing_up: Screenshot
 
-<div>
-<img width="1272" alt="Screen Shot 2020-08-10 at 2 03 11 PM" src="https://user-images.githubusercontent.com/61400214/89755228-a230e480-db19-11ea-87de-315e9ae6d10e.png">
+<div align=center>
+<img width="800" src="https://user-images.githubusercontent.com/61400214/89755696-4b2c0f00-db1b-11ea-9257-50cbe28eb16e.png"><br>
+<img width="800" src="https://user-images.githubusercontent.com/61400214/89755708-50895980-db1b-11ea-90fc-4b6aa3d2238b.png"><br>
+<img width="800" src="https://user-images.githubusercontent.com/61400214/89755709-5121f000-db1b-11ea-8307-08ba0373473c.png">
 </div>
