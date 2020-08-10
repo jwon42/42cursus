@@ -28,22 +28,22 @@
 
 #### :page_facing_up: Bonus list
 
-- Wall collisions.
-- A skybox.
-- Floor and/or ceiling texture.
-- An HUD.
-- Ability to look up and down.
-- Jump or crouch.
-- A distance related shadow effect.
-- Life bar.
-- More items in the maze.
-- Object collisions.
-- Earning points and/or losing life by picking up objects/traps.
-- Doors which can open and close.
-- Secret doors.
-- Animations of a gun shot or animated sprite.
-- Several levels.
-- Sounds and music.
-- Rotate the point of view with the mouse.
-- Weapons and bad guys to fight!
+- [x] Wall collisions.
+- [x] A skybox.
+- [ ] Floor and/or ceiling texture.
+- [ ] An HUD.
+- [x] Ability to look up and down.
+- [ ] Jump or crouch.
+- [ ] A distance related shadow effect.
+- [x] Life bar.
+- [x] More items in the maze.
+- [x] Object collisions.
+- [x] Earning points and/or losing life by picking up objects/traps.
+- [x] Doors which can open and close.
+- [x] Secret doors.
+- [ ] Animations of a gun shot or animated sprite.
+- [ ] Several levels.
+- [x] Sounds and music.
+- [ ] Rotate the point of view with the mouse.
+- [ ] Weapons and bad guys to fight!
 
