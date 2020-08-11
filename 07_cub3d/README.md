@@ -56,7 +56,7 @@
    ./cub3D maps/map.cub
    ```
 
-2. Find Process ID(PID).
+2. Find the Process ID(PID).
 
    ```bash
    ps
