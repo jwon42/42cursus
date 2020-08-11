@@ -71,7 +71,7 @@
 3. Check a memory leaks.
 
    ```bash
-   while 1; do leaks 12345; sleep 5; clear; done
+   while 1 ; do leaks 12345 ; sleep 5 ; clear ; done
    ```
 
    ```bash
