@@ -52,14 +52,14 @@
 1. Run **cub3d**.
 
    ```bash
-   > make
-   > ./cub3D maps/map.cub
+   make
+   ./cub3D maps/map.cub
    ```
 
 2. Find Process ID(PID).
 
    ```bash
-   > ps
+   ps
    ```
 
    ```bash
@@ -71,7 +71,7 @@
 3. Check a memory leaks.
 
    ```bash
-   > while 1; do leaks 12345; sleep 5; clear; done
+   while 1; do leaks 12345; sleep 5; clear; done
    ```
 
    ```bash
