@@ -47,6 +47,58 @@
 - [ ] Rotate the point of view with the mouse.
 - [ ] Weapons and bad guys to fight!
 
+#### :page_facing_up: How to use leaks command
+
+1. Run **cub3d**.
+
+   ```bash
+   > make
+   > ./cub3D maps/map.cub
+   ```
+
+2. Find Process ID(PID).
+
+   ```bash
+   > ps
+   ```
+
+   ```bash
+     PID TTY           TIME CMD
+   12321 ttys001    0:00.31 -zsh
+   12345 ttys001    0:02.93 ./cub3D maps/map.cub
+   ```
+
+3. Check a memory leaks.
+
+   ```bash
+   > while 1; do leaks 12345; sleep 5; clear; done
+   ```
+
+   ```bash
+   Process:         cub3D [12345]
+   Path:            /Volumes/VOLUME/*/cub3D
+   Load Address:    0x103a7f000
+   Identifier:      cub3D
+   Version:         ???
+   Code Type:       X86-64
+   Parent Process:  zsh [12321]
+   
+   Date/Time:       2020-01-01 00:00:00.001 +0900
+   Launch Time:     2020-01-01 00:00:00.001 +0900
+   OS Version:      Mac OS X 10.14.6 (18G6020)
+   Report Version:  7
+   Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+   Analysis Tool Version:  Xcode 10.2.1 (10E1001)
+   
+   Physical footprint:         38.2M
+   Physical footprint (peak):  38.3M
+   ----
+   
+   leaks Report Version: 4.0
+   Process 12345: 20837 nodes malloced for 19396 KB
+   Process 12345: 0 leaks for 0 total leaked bytes.
+   ```
+
 #### :page_facing_up: Screenshot
 
 <div align=center>
