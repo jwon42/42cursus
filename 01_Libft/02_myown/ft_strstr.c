@@ -6,11 +6,11 @@
 /*   By: jwon <marvin@42.fr>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/08/15 13:07:07 by jwon              #+#    #+#             */
-/*   Updated: 2020/08/15 13:07:50 by jwon             ###   ########.fr       */
+/*   Updated: 2020/08/15 13:15:09 by jwon             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		str_compare(char *str1, char *str2)
+int		str_compare(const char *str1, const char *str2)
 {
 	while (*str2)
 	{
@@ -22,16 +22,16 @@ int		str_compare(char *str1, char *str2)
 	return (1);
 }
 
-char	*ft_strstr(char *str, char *to_find)
+char	*ft_strstr(const char *str, const char *to_find)
 {
 	if (*to_find == '\0')
-		return (str);
+		return ((char *)str);
 	while (*str)
 	{
 		if (*str == *to_find)
 		{
 			if (str_compare(str, to_find))
-				return (str);
+				return ((char *)str);
 		}
 		str++;
 	}
