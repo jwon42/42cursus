@@ -6,7 +6,7 @@
 /*   By: jwon <marvin@42.fr>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/06 13:56:39 by jwon              #+#    #+#             */
-/*   Updated: 2020/04/13 16:37:20 by jwon             ###   ########.fr       */
+/*   Updated: 2020/08/15 13:08:45 by jwon             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,7 +74,8 @@ t_list				*ft_lstmap(t_list *lst, void *(*f)(void *), \
 
 int					get_next_line(int fd, char **line);
 int					ft_isspace(int c);
-char				*ft_chrdel(char const *s, char c);
 int					ft_isspace_str(char *str);
+char				*ft_chrdel(char const *s, char c);
+char				*ft_strstr(char *str, char *to_find);
 
 #endif
