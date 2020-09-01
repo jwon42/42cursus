@@ -1,29 +1,20 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    ft_read.s                                          :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: jwon <marvin@42.fr>                        +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2020/08/21 14:50:40 by jwon              #+#    #+#              #
-#    Updated: 2020/08/21 14:50:51 by jwon             ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
+;Prototype
+;ssize_t ft_read(int fd, void *buff, size_t nbyte);
 
 section .text
-global _ft_read
+	global _ft_read
 	extern ___error
 
 _ft_read:
-	mov rax, 0x2000003
-	syscall
-	jc _err
-	ret
+	mov		rax, 0x2000003 ; OSX 이기 때문에 upper bits 를 2로 설정, 3은 read 시스템콜 넘버
+	syscall ; 시스템콜
+	jc		_err ; 에러가 있다면 carry flag on
+	ret ; rax 값 리턴
 
 _err:
-	push rax
-	call ___error
-	pop rdx
-	mov [rax], rdx
-	mov rax, -1
-	ret
+	push	rax ; 스택에 rax 값(에러 주소) 저장
+	call	___error ; ___error 호출
+	pop		rdx ; 스택에 있는 값을 rdx에 저장
+	mov		[rax], rdx ; rax 주소는 변경하지 않고 값을 rdx의 값으로 복사
+	mov		rax, -1 ; rax 에 -1 저장
+	ret ; rax 값 리턴
