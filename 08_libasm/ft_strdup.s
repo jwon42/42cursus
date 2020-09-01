@@ -22,4 +22,4 @@ _ft_strdup:
 	jmp		exit ; exit로 이동
 
 exit:
-	ret ; rax 호출
+	ret ; rax 값 리턴
