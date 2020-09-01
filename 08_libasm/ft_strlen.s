@@ -5,7 +5,7 @@ section .text
 	global _ft_strlen
 
 _ft_strlen:
-	mov rax, 0 ; 리턴할 raw 값 0으로 초기화
+	mov rax, 0 ; 리턴할 rax 값 0으로 초기화
 	jmp count ; count로 이동
 
 count:
