@@ -19,7 +19,7 @@ compare:
 
 different:
 	sub	rax, rbx ; rax에서 rbx 빼기
-	ret ; rax 리턴
+	ret ; rax 값 리턴
 
 same:
 	cmp	al, 0 ; al과 0(NULL) 비교
@@ -29,4 +29,4 @@ same:
 
 exit:
 	mov	rax, 0 ; rax를 0으로 초기화
-	ret ; rax 리턴
+	ret ; rax 값 리턴
