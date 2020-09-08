@@ -78,7 +78,7 @@ FLAGS		=	-Wall -Wextra -Werror
 
 LEAKS		=	-g3 -fsanitize=address -fsanitize=undefined -std=c99
 
-MLX			=	-lmlx -lm -framework OpenGL -framework AppKit
+MLX			=	-Llibs/minilibx -lmlx -framework OpenGL -framework AppKit
 
 $(NAME) : $(OBJS) $(BNS_OBJS)
 	@printf '\n\033[33m[ Compile libft ]\033[0m\n'
