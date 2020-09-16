@@ -6,7 +6,7 @@
 /*   By: jwon <jwon@student.42seoul.kr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/13 16:46:24 by jwon              #+#    #+#             */
-/*   Updated: 2020/09/16 19:46:17 by jwon             ###   ########.fr       */
+/*   Updated: 2020/09/16 20:11:32 by jwon             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,10 +62,10 @@ void			cmd_env(char **argv, t_list *envs)
 
 	tmp_envs = 0;
 	argv++;
-	if (!check_argv_for_env(*argv))
-		return ;
 	while (*argv)
 	{
+		if (!check_argv_for_env(*argv))
+			return ;
 		tmp_envs = make_tmp_envs(tmp_envs, *argv);
 		argv++;
 	}
