@@ -6,13 +6,22 @@
 /*   By: jwon <jwon@student.42seoul.kr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/13 16:57:13 by jwon              #+#    #+#             */
-/*   Updated: 2020/09/14 14:46:40 by jwon             ###   ########.fr       */
+/*   Updated: 2020/09/16 19:46:10 by jwon             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minishell.h"
 
-int			is_valid_env(char *arg)
+int			is_valid_for_env(char *arg)
+{
+	if (arg[0] == '=')
+		return (1);
+	if (!ft_strchr(arg, '='))
+		return (2);
+	return (0);
+}
+
+int			is_valid_for_export(char *arg)
 {
 	if (ft_isdigit(arg[0]) || arg[0] == '=')
 		return (0);

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cmd_env.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jwon <marvin@42.fr>                        +#+  +:+       +#+        */
+/*   By: jwon <jwon@student.42seoul.kr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/13 16:46:24 by jwon              #+#    #+#             */
-/*   Updated: 2020/09/13 16:46:47 by jwon             ###   ########.fr       */
+/*   Updated: 2020/09/16 19:46:17 by jwon             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,21 +37,35 @@ static char		*make_tmp_envs(char *tmp_envs, char *argv)
 	return (tmp_envs);
 }
 
+static int		check_argv_for_env(char *argv)
+{
+	if (is_valid_for_env(argv) == 1)
+	{
+		ft_putstr_fd("env: setenv", 1);
+		ft_putstr_fd(argv, 1);
+		ft_putendl_fd(": Invalid argument", 1);
+		return (0);
+	}
+	if (is_valid_for_env(argv) == 2)
+	{
+		ft_putstr_fd("env: ", 1);
+		ft_putstr_fd(argv, 1);
+		ft_putendl_fd(": No such file or directory", 1);
+		return (0);
+	}
+	return (1);
+}
+
 void			cmd_env(char **argv, t_list *envs)
 {
 	char	*tmp_envs;
 
 	tmp_envs = 0;
 	argv++;
+	if (!check_argv_for_env(*argv))
+		return ;
 	while (*argv)
 	{
-		if (!is_valid_env(*argv))
-		{
-			ft_putstr_fd("env: ", 1);
-			ft_putstr_fd(*argv, 1);
-			ft_putendl_fd(": No such file or directory", 1);
-			return ;
-		}
 		tmp_envs = make_tmp_envs(tmp_envs, *argv);
 		argv++;
 	}

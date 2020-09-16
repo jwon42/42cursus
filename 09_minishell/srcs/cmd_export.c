@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cmd_export.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jwon <marvin@42.fr>                        +#+  +:+       +#+        */
+/*   By: jwon <jwon@student.42seoul.kr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/13 16:47:09 by jwon              #+#    #+#             */
-/*   Updated: 2020/09/13 16:48:38 by jwon             ###   ########.fr       */
+/*   Updated: 2020/09/16 19:35:04 by jwon             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ void			cmd_export(char **argv, t_list *envs)
 	argv++;
 	while (*argv)
 	{
-		if (!is_valid_env(*argv))
+		if (!is_valid_for_export(*argv))
 		{
 			ft_putstr_fd("export: `", 1);
 			ft_putstr_fd(*argv, 1);

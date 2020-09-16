@@ -6,7 +6,7 @@
 /*   By: jwon <jwon@student.42seoul.kr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/13 17:01:51 by jwon              #+#    #+#             */
-/*   Updated: 2020/09/14 12:10:09 by jwon             ###   ########.fr       */
+/*   Updated: 2020/09/16 19:35:25 by jwon             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -106,7 +106,8 @@ void			free_double_arr(char **arr);
 /*
 **	utils_env.c
 */
-int				is_valid_env(char *arg);
+int				is_valid_for_env(char *arg);
+int				is_valid_for_export(char *arg);
 int				is_exist_key(char *key, t_list *envs);
 char			*find_value(char *key, t_list *envs);
 char			*find_path(char *argv, t_list *envs);
