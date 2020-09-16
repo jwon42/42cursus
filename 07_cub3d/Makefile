@@ -6,7 +6,7 @@
 #    By: jwon <jwon@student.42seoul.kr>             +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/07/13 20:41:23 by jwon              #+#    #+#              #
-#    Updated: 2020/09/16 20:48:08 by jwon             ###   ########.fr        #
+#    Updated: 2020/09/16 20:50:52 by jwon             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -99,10 +99,10 @@ clean :
 	@printf '\n\033[33m[ Remove cub3D object files ]\033[0m\n'
 	rm -rf $(OBJS) $(BNS_OBJS)
 
-fclean : clean
+fclean :
 	@printf '\n\033[33m[ Remove executive file ]\033[0m\n'
-	rm -rf ./libs/libft/libft.a
 	rm -rf $(NAME)
+	$(MAKE) -C ./libs/libft fclean
 	rm -rf screenshot.bmp
 	@printf '\n'
 
