@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: jwon <marvin@42.fr>                        +#+  +:+       +#+         #
+#    By: jwon <jwon@student.42seoul.kr>             +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/07/13 20:41:23 by jwon              #+#    #+#              #
-#    Updated: 2020/08/04 17:57:38 by jwon             ###   ########.fr        #
+#    Updated: 2020/09/16 20:48:08 by jwon             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -101,6 +101,7 @@ clean :
 
 fclean : clean
 	@printf '\n\033[33m[ Remove executive file ]\033[0m\n'
+	rm -rf ./libs/libft/libft.a
 	rm -rf $(NAME)
 	rm -rf screenshot.bmp
 	@printf '\n'
