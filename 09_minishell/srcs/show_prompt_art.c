@@ -6,7 +6,7 @@
 /*   By: jwon <jwon@student.42seoul.kr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/13 16:56:41 by jwon              #+#    #+#             */
-/*   Updated: 2020/09/14 13:41:52 by jwon             ###   ########.fr       */
+/*   Updated: 2020/09/16 20:02:14 by jwon             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ static void		input_catch_ctrld(int ctrld, char **line)
 		buf = temp;
 		if (!(**line) && !ctrld)
 		{
-			ft_putstr_fd("exit", 1);
+			ft_putstr_fd("exit\n", 1);
 			free(buf);
 			exit(EXIT_SUCCESS);
 		}
