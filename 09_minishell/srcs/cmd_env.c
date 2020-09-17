@@ -6,7 +6,7 @@
 /*   By: jwon <jwon@student.42seoul.kr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/13 16:46:24 by jwon              #+#    #+#             */
-/*   Updated: 2020/09/16 20:11:32 by jwon             ###   ########.fr       */
+/*   Updated: 2020/09/17 15:57:12 by jwon             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ static int		check_argv_for_env(char *argv)
 	{
 		ft_putstr_fd("env: setenv", 1);
 		ft_putstr_fd(argv, 1);
-		ft_putendl_fd(": Invalid argument", 1);
+		ft_putendl_fd(" : Invalid argument", 1);
 		return (0);
 	}
 	if (is_valid_for_env(argv) == 2)
