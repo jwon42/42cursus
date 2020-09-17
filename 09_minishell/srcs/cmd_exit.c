@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cmd_exit.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yechoi <yechoi@student.42seoul.kr>         +#+  +:+       +#+        */
+/*   By: jwon <jwon@student.42seoul.kr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/13 16:46:55 by jwon              #+#    #+#             */
-/*   Updated: 2020/09/13 18:58:38 by yechoi           ###   ########.fr       */
+/*   Updated: 2020/09/17 15:18:52 by jwon             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,10 +43,10 @@ void			cmd_exit(char **argv)
 		exit(ft_atoi(argv[1]));
 	}
 	else if (argc > 2 && ft_isdigit_str(argv[1]))
-		ft_putendl_fd("bash: exit: too many arguments", 1);
+		ft_putendl_fd("exit: too many arguments", 1);
 	else
 	{
-		ft_putstr_fd("bash: exit: numeric argument required", 1);
+		ft_putstr_fd("exit: numeric argument required", 1);
 		exit(2);
 	}
 }
