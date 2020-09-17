@@ -6,7 +6,7 @@
 /*   By: jwon <jwon@student.42seoul.kr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/13 16:56:41 by jwon              #+#    #+#             */
-/*   Updated: 2020/09/16 20:16:16 by jwon             ###   ########.fr       */
+/*   Updated: 2020/09/17 18:34:12 by jwon             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,7 +85,7 @@ void			show_prompt(char *user)
 		ft_putstr_fd(pwd, 1);
 	else if (ft_strncmp(tmp[0], "/", ft_strlen(tmp[0])) == 0)
 		ft_putstr_fd("/", 1);
-	else if (ft_strncmp(tmp[0], "/Users", ft_strlen(tmp[0])) == 0)
+	else if (ft_strncmp(tmp[0], "/Users/", ft_strlen(tmp[0])) == 0)
 		ft_putstr_fd("/Users", 1);
 	else if (ft_strncmp(tmp[0], set, ft_strlen(tmp[0])) == 0)
 		ft_putstr_fd("~", 1);
