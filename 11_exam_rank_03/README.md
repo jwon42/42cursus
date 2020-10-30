@@ -4,5 +4,5 @@
 
 - | Subject                                                      | Description                                                  |                    |
   | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------ |
-  | [**micro_paint**](https://github.com/jwon42/42cursus/tree/master/11_exam_rank_03/micro_paint)<br />mini_paint | Write a program that will read an "operation file" and print the result in the terminal | :heavy_check_mark: |
+  | [**micro_paint**](https://github.com/jwon42/42cursus/tree/master/11_exam_rank_03/micro_paint)<br />[**mini_paint**](https://github.com/jwon42/42cursus/tree/master/11_exam_rank_03/mini_paint) | Write a program that will read an "operation file" and print the result in the terminal | :heavy_check_mark: |
 
