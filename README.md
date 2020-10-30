@@ -10,10 +10,13 @@
 |        |  06   | [**Exam Rank 02**](https://github.com/jwon42/42cursus/tree/master/06_exam_rank_02) |    C     |                                                              | :heavy_check_mark: | **100**/100 | 2020-06-02 |   2.30   |
 |        |  07   | [**cub3d**](https://github.com/jwon42/42cursus/tree/master/07_cub3d) |    C     |                                                              | :heavy_check_mark: | **113**/100 | 2020-08-05 |   3.16   |
 |   04   |  08   | [**libasm**](https://github.com/jwon42/42cursus/tree/master/08_libasm) | Assembly |                                                              | :heavy_check_mark: | **100**/100 | 2020-09-02 |   3.36   |
-|        |  09   | [**minishell**](https://github.com/jwon42/42cursus/tree/master/09_minishell) |    C     |                                                              | :heavy_check_mark: | **100**/100 | 2020-09-14 | **3.95** |
-|        |       | **ft_services**                                              |          |                                                              |                    |             |            |          |
-|        |       | **Exam Rank 03**                                             |          |                                                              |                    |             |            |          |
-|        |       |                                                              |          |                                                              |                    |             |            |          |
+|        |  09   | [**minishell**](https://github.com/jwon42/42cursus/tree/master/09_minishell) |    C     |                                                              | :heavy_check_mark: | **100**/100 | 2020-09-14 |   3.95   |
+|        |  10   | **ft_services**                                              |          |                                                              | :heavy_check_mark: | **100**/100 | 2020-10-24 |   4.06   |
+|        |  11   | [**Exam Rank 03**](https://github.com/jwon42/42cursus/tree/master/11_exam_rank_03) |          |                                                              | :heavy_check_mark: | **100**/100 | 2020-10-30 | **4.06** |
+|   05   |       | **Philosophers**                                             |          |                                                              |                    |             |            |          |
+|        |       | **CPP Module**                                               |          |                                                              |                    |             |            |          |
+|        |       | **Exam Rank 04**                                             |          |                                                              |                    |             |            |          |
+|   06   |       | **ft_containers**                                            |          |                                                              |                    |             |            |          |
 |        |       |                                                              |          |                                                              |                    |             |            |          |
 
 ## :camera: Intra Profile
