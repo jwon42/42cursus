@@ -6,7 +6,7 @@
 /*   By: jwon <marvin@42.fr>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/30 14:31:29 by jwon              #+#    #+#             */
-/*   Updated: 2020/11/07 18:58:28 by jwon             ###   ########.fr       */
+/*   Updated: 2020/11/07 19:01:54 by jwon             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,21 +48,14 @@ int	main(int argc, char *argv[])
 {
 	FILE	*file;
 	char	*paper;
-	int		read;
-	int		pos;
+	int		read, pos;
+	int		x, y;
 
-	int		x;
-	int		y;
-
-	int		b_width;
-	int		b_height;
+	int		b_width, b_height;
 	char	background;
 
-	char	id;
-	float	id_x;
-	float	id_y;
-	float	radius;
-	char	color;
+	char	id, color;
+	float	id_x, id_y, radius;
 
 	if (argc != 2) // 인자가 없으면
 		return (ft_perror(ERR1)); // 1번 에러 출력, 함수종료
@@ -74,7 +67,7 @@ int	main(int argc, char *argv[])
 	memset(paper, background, b_width * b_height); // 배경 그리기
 	while ((read = fscanf(file, "%c %f %f %f %c\n", &id, &id_x, &id_y, &radius, &color)) == 5) // 파일의 두번째 줄부터 조건(형식, 갯수)에 부합하면 반복
 	{
-		if (!(radius > 0) || !(id == 'C' || id == 'c')) // 그려야 하는 크기가 음수거나, id가 'C'또는 'c'가 아니면
+		if (!(radius > 0) || !(id == 'C' || id == 'c')) // radius 값이 음수거나, id가 'C'또는 'c'가 아니면
 			break ; // 반복문 탈출
 		y = -1;
 		while (++y < b_height) // 배경 높이까지 반복
