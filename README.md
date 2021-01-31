@@ -19,9 +19,9 @@
 |        | [**CPP Module 03**](https://github.com/jwon42/42cursus_12_CPP_Module/tree/master/03) |    C++     |                                                              | :heavy_check_mark: | **100**/100 | 2021-01-23 |   4.06   |
 |        | [**CPP Module 04**](https://github.com/jwon42/42cursus_12_CPP_Module/tree/master/04) |    C++     |                                                              | :heavy_check_mark: | **100**/100 | 2021-01-27 |   4.06   |
 |        | [**CPP Module 05**](https://github.com/jwon42/42cursus_12_CPP_Module/tree/master/05) |    C++     |                                                              | :heavy_check_mark: | **100**/100 | 2021-01-27 |   4.06   |
-|        | [**CPP Module 06**](https://github.com/jwon42/42cursus_12_CPP_Module/tree/master/06) |    C++     |                                                              | :heavy_check_mark: | **100**/100 | 2021-01-29 | **4.06** |
-|        | [**CPP Module 07**](https://github.com/jwon42/42cursus_12_CPP_Module/tree/master/07) |    C++     |                                                              |                    |             |            |          |
-|        | **CPP Module 08**                                            |    C++     |                                                              |                    |             |            |          |
+|        | [**CPP Module 06**](https://github.com/jwon42/42cursus_12_CPP_Module/tree/master/06) |    C++     |                                                              | :heavy_check_mark: | **100**/100 | 2021-01-29 |   4.06   |
+|        | [**CPP Module 07**](https://github.com/jwon42/42cursus_12_CPP_Module/tree/master/07) |    C++     |                                                              | :heavy_check_mark: | **100**/100 | 2021-01-31 |   4.06   |
+|        | [**CPP Module 08**](https://github.com/jwon42/42cursus_12_CPP_Module/tree/master/08) |    C++     |                                                              | :heavy_check_mark: | **100**/100 | 2021-01-31 | **4.80** |
 |        | **Philosophers**                                             |     C      |                                                              |                    |             |            |          |
 |        | **Exam Rank 04**                                             |     C      |                                                              |                    |             |            |          |
 |   06   | **ft_containers**                                            |    C++     |                                                              |                    |             |            |          |
@@ -30,6 +30,8 @@
 |        | **Exam Rank 05**                                             |            |                                                              |                    |             |            |          |
 |   07   | **ft_transcendence**                                         |            |                                                              |                    |             |            |          |
 |        | **Exam Rank 06**                                             |            |                                                              |                    |             |            |          |
+
+------
 
 ## :camera: Intra Profile
 
