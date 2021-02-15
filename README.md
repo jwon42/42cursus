@@ -22,7 +22,7 @@
 |        | [**CPP Module 06**](https://github.com/jwon42/42cursus_12_CPP_Module/tree/master/06) |    C++     |                                                              | :heavy_check_mark: | **100**/100 | 2021-01-29 |   4.06   |
 |        | [**CPP Module 07**](https://github.com/jwon42/42cursus_12_CPP_Module/tree/master/07) |    C++     |                                                              | :heavy_check_mark: | **100**/100 | 2021-01-31 |   4.06   |
 |        | [**CPP Module 08**](https://github.com/jwon42/42cursus_12_CPP_Module/tree/master/08) |    C++     |                                                              | :heavy_check_mark: | **100**/100 | 2021-01-31 | **4.80** |
-|        | **Philosophers**                                             |     C      |                                                              |                    |             |            |          |
+|        | [**Philosophers**](https://github.com/jwon42/42cursus_13_Philosophers) |     C      |                                                              |                    |             |            |          |
 |        | **Exam Rank 04**                                             |     C      |                                                              |                    |             |            |          |
 |   06   | **ft_containers**                                            |    C++     |                                                              |                    |             |            |          |
 |        | **webserv**                                                  |            |                                                              |                    |             |            |          |
