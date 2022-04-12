@@ -27,7 +27,7 @@
 |   06   | [**webserv**](https://github.com/ftinx/webserv)                                      |              C++               | ![](https://badge42.vercel.app/api/v2/cl1n94s07000609myixypisjj/project/2153405) |   5.82   |
 |        | [**ft_containers**](https://github.com/jwon42/42cursus_16_ft_containers)             |              C++               | ![](https://badge42.vercel.app/api/v2/cl1n94s07000609myixypisjj/project/2162513) |    -     |
 |   07   | [**ft_transcendence**](https://github.com/transcendence42/ft_transcendence)          | Typescript, NestJS, PostgreSQL | ![](https://badge42.vercel.app/api/v2/cl1n94s07000609myixypisjj/project/2386505) | **9.97** |
-| Outer  | [**rubik**]()                                                                        |                                | ![](https://badge42.vercel.app/api/v2/cl1n94s07000609myixypisjj/project/2420283) |          |
+| Outer  | **rubik**                                                                            |                                | ![](https://badge42.vercel.app/api/v2/cl1n94s07000609myixypisjj/project/2420283) |          |
 
 ---
 
